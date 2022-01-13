@@ -1,0 +1,29 @@
+*{
+    margin: none;
+    box-sizing: border-box;
+    border: none;
+    padding: 0;
+}
+body{
+    width: 100vw;
+}
+#playerBody{
+    left: 10vw;
+    z-index: 999;
+}
+#horizon{
+    background-color: black;
+    height: 2px;
+    width: 100vw;
+    position: absolute;
+    top: 68vh;
+    z-index: 9;
+}
+#cactus{
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    top:59vh;
+    z-index: 998;
+}
+
