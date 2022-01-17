@@ -6,7 +6,11 @@
 }
 body{
     width: 100vw;
+    background-image: url("./img/sprites/meteor2.gif");
+    background-repeat: no-repeat;
+    background-size: 100px;
 }
+
 #playerBody{
     left: 10vw;
     z-index: 999;
@@ -20,10 +24,7 @@ body{
     z-index: 9;
 }
 #cactus{
-    width: 100px;
-    height: 90px;
-    position: absolute;
-    top:59vh;
+    
     z-index: 998;
 }
 
