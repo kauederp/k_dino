@@ -52,7 +52,7 @@ class Player{
         return {x: this.x, y:this.y}
     }
     setGravity(g,tela){
-        if(this.y<60){
+        if(this.y<58){
             this.y = this.y + g
             this.move = 'jump'
         }else{
