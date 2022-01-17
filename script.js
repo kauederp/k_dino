@@ -4,7 +4,7 @@ var key
 const body = document.getElementsByTagName('body')[0]
 const gravity = 1
 const tela = document.createElement("div")
-var left = 70
+var left = 100
 var velocidade = 0.8
 
 // game over screen
@@ -85,7 +85,7 @@ const update = ()=>{
 
         }
 	if(left <= 0){
-		left = 75
+		left = 100
 		cactus.setCactus(cactusBody,left,58,cactus.width,90)
 		
 		velocidade+=0.06
